@@ -1,0 +1,14 @@
+.extension-body {
+	padding:20px;
+}
+.load-indicator {
+	display:none
+}
+.mg {
+	width:100%;
+	height:30px;
+	background-color:black;
+	border-radius:5px;
+	box-shadow:inset 0px 0px 5px lightgray;
+	border:1px solid #f2f2f2;
+}

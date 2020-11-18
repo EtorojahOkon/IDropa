@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="./css/semantic.min.css"/>
+<link rel="stylesheet" type="text/css" href="./assets/css/all.min.css"/>
+<link rel="stylesheet" type="text/css" href="./css/main.css"/>
+<body class="extension-body">
+  <center>
+	  <div class="load-indicator" id="loading">
+	  	<i class="fas fa-circle-notch fa-spin fa-2x" style="color:cornflowerblue"></i>
+	  </div>
+	  <br/>
+	  <br/>
+	  <button id="get-color" class="ui blue button"><i class="fas fa-search"></i> Pick Data</button>
+	  <br/>
+	  <br/>
+	  <div style="text-align:left">
+	  	  <b>Class[es]: <i style="font-weight:normal" id="classname">0</i></b>
+	  	  <br/>
+	  	  <br/>
+		  <b>Background color: <i style="font-weight:normal" id="bg">rgb (0, 0, 0)</i></b>
+		  <div id="preview-bg" class="mg">
+		  	
+		  </div>
+		  <br/>
+		  <b>Color: <i style="font-weight:normal" id="cl">rgb (0, 0, 0)</i></b>
+		  <div id="preview-cl" class="mg">
+		  	
+		  </div>
+	  </div>
+	  <br/>
+  </center>
+</body>
+<script type="text/javascript" src="./assets/js/all.min.js"></script>
+<script type="text/javascript" src="./js/worker.js"></script>
+</html>
