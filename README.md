@@ -1,2 +1,2 @@
 # IDropa
-A DOM element info grabber made by developers. For developers
+A Chrome Browser extension used to get DOM element information! Made by developers... For developers...
